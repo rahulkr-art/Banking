@@ -74,7 +74,7 @@ def extract_companies(text_content):
         """ + text_content
 
         response = client.models.generate_content(
-            model="gemini-2.5-flash", # Updated to the latest stable flash model
+            model="gemini-2.5-flash", # Updated to the latest stable flash model (gemini-3.1-flash-lite-preview)
             contents=prompt
         )
         
